@@ -1,0 +1,8 @@
+single language {
+    locatin,
+    birthday
+}
+missSpelled{
+    date_en,
+    date_fa
+}

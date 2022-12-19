@@ -1,0 +1,15 @@
+.footer-btn{
+    @apply transition-colors duration-500 transform bg-gray-200 text-gray-600 w-11 h-11 flex justify-center items-center rounded-full hover:bg-[#ffb400] hover:text-white lg:my-8
+}
+.footer-btn-active{
+    @apply bg-[#ffb400] text-white w-11 h-11 flex justify-center items-center rounded-full
+}
+.active{
+    @apply lg:dark:bg-[#fe4060] lg:bg-[#fe4060] lg:text-white max-lg:text-[#ef4060] dark:max-lg:text-[#ef4060]
+}
+.R{
+    direction: rtl;
+}
+.L{
+    direction: ltr;
+}
