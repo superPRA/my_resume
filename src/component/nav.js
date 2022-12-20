@@ -33,12 +33,12 @@ export default function Nav() {
             <FontAwesomeIcon icon={faSun} size="xl" />
           )}
         </button>
-        <button
+        {(window.location.pathname.includes("pourya") || window.location.pathname.includes("alireza")) && <button
           className="lg:hidden bg-[#ef4060] rounded-full w-12 h-12 text-white text-3xl"
           onClick={() => dispatch(actions.menuOpenToggle("toggle"))}
         >
           {menuOpen ? "X" : "#"}
-        </button>
+        </button>}
       </div>
     </div>
   );
