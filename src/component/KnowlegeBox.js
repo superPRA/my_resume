@@ -8,7 +8,7 @@ export default function KnowlegeBox({bg, icon, color, title, text, border}) {
       <i className={`${icon} text-3xl mt-2 ${color}`}></i>
       <div className="mx-6">
         <h3 className="text-xl font-semibold mt-1 mb-3 ">{title}</h3>
-        <p className="text-gray-700 leading-8">{text}</p>
+        <p className="text-gray-700 dark:text-gray-400 leading-8">{text}</p>
       </div>
     </div>
   );

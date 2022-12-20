@@ -8,7 +8,7 @@ export default function WIDBox(prop) {
       <img src={prop.img}  />
       <div className="mx-6">
         <h3 className="text-xl font-semibold mt-1 mb-3 ">{prop.title}</h3>
-        <p className="text-gray-700 leading-8">{prop.text}</p>
+        <p className="text-gray-700 dark:text-gray-400 leading-8">{prop.text}</p>
       </div>
     </div>
   );
