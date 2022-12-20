@@ -11,9 +11,9 @@ export default function MassageBox() {
       className={`flex justify-between fixed w-full bottom-12 left-0 L items-center`}
     >
       <div
-        className={` md:w-[600px] w-[350px] text-base lg:text-3xl bg-white shadow-2xl rounded-r-full relative top-0 ${
+        className={` md:w-[600px] w-[320px] text-base lg:text-3xl bg-white shadow-2xl rounded-r-full relative top-0 ${
           massageBox.exist ? "left-0" : "-left-[600px]"
-        } delay-100 transition-all duration-300 text-3xl py-6 px-6`}
+        } delay-100 transition-all duration-300 text-xl py-6 px-6`}
       >
         {massageBox.massage}
       </div>
