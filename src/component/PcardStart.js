@@ -29,7 +29,7 @@ export default function PcardStart() {
   return (
     <div className="bg-white dark:bg-[#111111] pt-24 pb-12 lg:mt-40 px-20 lg:rounded-xl lg:my-20 dark:text-white">
       <img
-        src={authorIMG}
+        src={require("./../p2.jpg")}
         className="w-[240px] h-[240px] rounded-2xl mx-auto drop-shadow-lg lg:absolute lg:-my-[240px] "
       />
       <h2 className="text-center mt-6 text-[30px] font-semibold">

@@ -31,7 +31,7 @@ export default function Pcard() {
   return (
     <div className="bg-white dark:bg-[#111111] pt-24 pb-12 px-5 lg:rounded-xl w-full lg:mb-5 xl:w-96 relative lg:w-80 dark:text-white">
       <img
-        src={authorIMG}
+        src={require("./../p2.jpg")}
         className="w-[240px] lg:absolute lg:left-[50%] transform lg:-translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  rounded-[20px] lg:-mt-[240px]"
         alt=""
       />
