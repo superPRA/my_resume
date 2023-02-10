@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import { actions } from "../features/counter/counterSlice";
+import { actions } from "../../features/counter/counterSlice";
 import { Link } from "react-router-dom";
 export default function Nav() {
   const isdark = useSelector((state) => state.glob.darkMode);

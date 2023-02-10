@@ -1,6 +1,6 @@
 import React from "react";
-import PageTitle from "../component/PageTitle";
-import WIDBox from "../component/WIDBox";
+import PageTitle from "../component/mainPage/PageTitle";
+import WIDBox from "../component/mainPage/WIDBox";
 import { useSelector } from "react-redux";
 import { useContext } from "react";
 import { APIcontext } from "../App";

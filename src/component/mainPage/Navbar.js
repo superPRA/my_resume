@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { actions } from "../features/counter/counterSlice";
+import { actions } from "../../features/counter/counterSlice";
 
 export default function Navbar() {
   const menuOpen = useSelector((state) => state.glob.menuOpen);

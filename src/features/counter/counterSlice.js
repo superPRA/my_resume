@@ -12,7 +12,7 @@ export const counterSlice = createSlice({
       exist: false,
       massage: "",
     },
-    
+    bgMode:"resume"
   },
   reducers: {
     pageToggle: (state, action) => {
@@ -34,7 +34,9 @@ export const counterSlice = createSlice({
     massageBoxHandle: (state, action) => {
       state.massageBox = action.payload;
     },
-    
+    setBgMode: (state, action)=>{
+      state.bgMode = action.payload
+    }
   },
 });
 

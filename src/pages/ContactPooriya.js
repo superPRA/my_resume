@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import PageTitle from "../component/PageTitle";
+import PageTitle from "../component/mainPage/PageTitle";
 import { useFormik } from "formik";
 import * as yup from "yup";
-import MassageBox from "../component/MassageBox";
+import MassageBox from "../component/mainPage/MassageBox";
 import { useDispatch, useSelector } from "react-redux";
 import { actions } from "../features/counter/counterSlice";
 

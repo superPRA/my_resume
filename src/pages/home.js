@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import Nav from "../component/nav";
-import PcardStart from "../component/PcardStart";
-import AcardStart from "../component/AcartStart";
+import Nav from "../component/mainPage/nav";
+import PcardStart from "../component/mainPage/PcardStart";
+import AcardStart from "../component/mainPage/AcartStart";
 import { APIcontext } from "../App";
-import Loading from "../component/Loading";
-import Error from "../component/Error";
+import Loading from "../component/mainPage/Loading";
+import Error from "../component/mainPage/Error";
 
 export default function Home() {
   const API = useContext(APIcontext);

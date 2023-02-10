@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import { APIcontext } from "../App";
+import { APIcontext } from "../../App";
 
 
 
@@ -31,8 +31,8 @@ export default function Pcard() {
   return (
     <div className="bg-white dark:bg-[#111111] pt-24 pb-12 px-5 lg:rounded-xl w-full lg:mb-5 xl:w-96 relative lg:w-80 dark:text-white">
       <img
-        src={require("./../p2.jpg")}
-        className="w-[240px] lg:absolute lg:left-[50%] transform lg:-translate-x-[50%] h-[240px] drop-shadow-xl mx-auto  rounded-[20px] lg:-mt-[240px]"
+        src={require("./../../p2.jpg")}
+        className="w-[240px] lg:absolute lg:left-[calc(50%-120px)] transform h-[240px] drop-shadow-xl mx-auto  rounded-[20px] lg:-mt-[240px]"
         alt=""
       />
       <h2 className="text-center mt-6 text-[30px] font-semibold">
@@ -55,7 +55,7 @@ export default function Pcard() {
           <i className="fa-brands fa-github font-bold text-2xl"></i>
         </a>
       </div>
-      <div className="bg-[#f3f6f6] dark:bg-[#212425] w-full my-6 p-6 rounded-xl">
+      <div className="bg-[#f3f6f6] dark:bg-[#212425] w-full my-6 p-6 rounded-2xl">
         <div className="flex items-center border-b-2 py-4">
           <div className="bg-white dark:bg-[#111111] dark:hover:bg-[#fe4060] w-[40px] h-[40px] flex justify-center items-center rounded-lg drop-shadow-lg transition-all duration-300 hover:bg-[#ef4060] text-green-600 hover:text-white">
             <i className="fa-solid fa-phone"></i>
@@ -110,9 +110,9 @@ export default function Pcard() {
           </div>
         </div>
       </div>
-      <button className="rounded-full py-3 px-5 bg-[#ef4060] mx-auto block text-white text-xl">
+      <a download={true} className="rounded-full py-3 px-5 bg-[#ef4060] mx-auto block text-white text-xl">
         <i className="fa-solid fa-download mr-3"></i>{lang === "en" ? "Download CV" : "دانلود رزومه"}
-      </button>
+      </a>
     </div>
   );
 }

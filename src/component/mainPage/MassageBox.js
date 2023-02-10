@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { actions } from "../features/counter/counterSlice";
+import { actions } from "../../features/counter/counterSlice";
 
 export default function MassageBox() {
   const dispatch = useDispatch()

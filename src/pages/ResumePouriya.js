@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import EdBox from "../component/EdBox";
-import KnowlegeBox from "../component/KnowlegeBox";
-import PageTitle from "../component/PageTitle";
-import SecondTitle from "../component/SecondTitle";
+import EdBox from "../component/mainPage/EdBox";
+import KnowlegeBox from "../component/mainPage/KnowlegeBox";
+import PageTitle from "../component/mainPage/PageTitle";
+import SecondTitle from "../component/mainPage/SecondTitle";
 import { useSelector } from "react-redux";
 import { APIcontext } from "../App";
 

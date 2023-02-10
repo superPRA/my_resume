@@ -1,13 +1,13 @@
-import Navbar from "../component/Navbar";
+import Navbar from "../component/mainPage/Navbar";
 import { Outlet } from "react-router-dom";
 import { useContext } from "react";
 import { APIcontext } from "../App";
-import Loading from "../component/Loading";
-import Error from "../component/Error";
+import Loading from "../component/mainPage/Loading";
+import Error from "../component/mainPage/Error";
 import { useSelector } from "react-redux";
 import React from "react";
-import Nav from "../component/nav";
-import Acard from "../component/Acard";
+import Nav from "../component/mainPage/nav";
+import Acard from "../component/mainPage/Acard";
 
 
 

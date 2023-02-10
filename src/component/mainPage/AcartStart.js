@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { APIcontext } from "../App";
+import { APIcontext } from "../../App";
 
-export default function PcardStart() {
+export default function AcardStart() {
   const lang = useSelector((state) => state.glob.lang);
   const API = useContext(APIcontext);
   const {
@@ -24,12 +24,12 @@ export default function PcardStart() {
     name_fa,
     phone,
     telegram,
-  } = API.pouryaApi.response.simpledata;
+  } = API.alirezaApi.response.simpledata;
 
   return (
     <div className="bg-white dark:bg-[#111111] pt-24 pb-12 lg:mt-40 px-20 lg:rounded-xl lg:my-20 dark:text-white">
       <img
-        src={require("./../p2.jpg")}
+        src={authorIMG}
         className="w-[240px] h-[240px] rounded-2xl mx-auto drop-shadow-lg lg:absolute lg:-my-[240px] "
       />
       <h2 className="text-center mt-6 text-[30px] font-semibold">
@@ -65,7 +65,7 @@ export default function PcardStart() {
         </a>
       </div>
       <Link
-        to="/PooriyaMosavi/about"
+        to="/alireza/about"
         className="text-center block mx-auto mb-4 mt-7 bg-[#f3f6f6] p-3 rounded-xl transition-all duration-300 w-36 hover:bg-[#ef4060] hover:text-white hover:w-64 dark:bg-[#212425]  dark:hover:bg-[#ef4060]"
       >
         {lang === "en" ? "More About Me" : "اطلاعات بیشتر"}

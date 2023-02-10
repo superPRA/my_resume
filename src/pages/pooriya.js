@@ -1,12 +1,12 @@
 import React from "react";
-import Nav from "../component/nav";
-import Pcard from "../component/Pcard";
-import Navbar from "../component/Navbar";
+import Nav from "../component/mainPage/nav";
+import Pcard from "../component/mainPage/Pcard";
+import Navbar from "../component/mainPage/Navbar";
 import { Outlet } from "react-router-dom";
 import { useContext } from "react";
 import { APIcontext } from "../App";
-import Loading from "../component/Loading";
-import Error from "../component/Error";
+import Loading from "../component/mainPage/Loading";
+import Error from "../component/mainPage/Error";
 import { useSelector } from "react-redux";
 
 

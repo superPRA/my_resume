@@ -1,6 +1,6 @@
 import React from 'react'
-import PageTitle from '../component/PageTitle'
-import SecondTitle from '../component/SecondTitle'
+import PageTitle from '../component/mainPage/PageTitle'
+import SecondTitle from '../component/mainPage/SecondTitle'
 import { useSelector } from 'react-redux'
 
 export default function WorkPooriya() {
